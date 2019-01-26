@@ -215,7 +215,6 @@ def big_shoe_rebound
   game_hash.each do |team, data|
     binding.pry
     data.each[:players] do |category, number|
-      binding.pry
     end
   end
 end
