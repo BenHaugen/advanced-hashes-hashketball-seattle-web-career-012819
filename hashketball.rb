@@ -213,7 +213,7 @@ def big_shoe_rebounds
   rebounds = nil
   shoe_size = nil
   game_hash.each do |team, data|
-    game_hash[team][:players].each do |player, stats|
+    game_hash[team][:players].each do |data, stats|
     binding.pry
     end
   end
