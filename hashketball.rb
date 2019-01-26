@@ -209,8 +209,8 @@ end
    
    
 def big_shoe_rebounds 
-  rebounds = nil
-  shoe_size = nil
+  rebounds = 0
+  shoe_size = 0
   game_hash.each do |team, data|
     data[:players].each do |name, stat| 
       if stat[:shoe] > shoe_size 
