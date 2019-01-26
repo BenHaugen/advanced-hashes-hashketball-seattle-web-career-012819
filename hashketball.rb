@@ -215,7 +215,9 @@ def big_shoe_rebounds
   game_hash.each do |team, data|
     game_hash[team][:players].each do |stuff, stats|
       stats.each do |things, numbers| 
+        size == game_hash[team][:players][numbers][:shoe]
         
+          
         
     binding.pry
       end
