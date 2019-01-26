@@ -213,6 +213,7 @@ def big_shoe_rebound
   rebounds = nil
   shoe_size = nil
   game_hash.each do |team, data|
+    binding.pry
     data.each[:players] do |category, number|
       binding.pry
     end
