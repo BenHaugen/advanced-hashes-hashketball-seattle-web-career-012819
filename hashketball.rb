@@ -208,11 +208,12 @@ def player_stats(name)
 end
    
    
-def big_shoe_rebound 
+def big_shoe_rebounds 
   big_shoe_fella = " "
   rebounds = nil
   shoe_size = nil
   game_hash.each do |team, data|
+    data.each[:players] do |category, number|
     binding.pry
     
   end
